@@ -1,0 +1,23 @@
+development:
+  default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 15
+  username: postgres
+  password: postgres
+  host: localhost
+  database: kaladaku_development
+
+production:
+  default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 15
+  username: postgres
+  password: postgres
+  host: localhost
+  database: kaladaku_production
+
+
+# Run this command after add in databse.yml
+# rake db:setup

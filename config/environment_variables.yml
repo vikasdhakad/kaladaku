@@ -1,0 +1,4 @@
+development:
+  REDIS_URL: redis://:pda7623a1b64748ef909040e4b57009d92da54df331e917e8aeb979b487516df4@ec2-35-171-105-153.compute-1.amazonaws.com:10919
+production:
+  REDIS_URL: redis://:pda7623a1b64748ef909040e4b57009d92da54df331e917e8aeb979b487516df4@ec2-35-171-105-153.compute-1.amazonaws.com:10919
