@@ -6,8 +6,7 @@ class SendEmailWorker
   sidekiq_options queue: :email
 
   def perform(email_address)
-    email_address = 'vikasdhakad989@gmail.com'
-    name = 'Test vikas'
+    name = 'Test mail'
     UserMailer.send_email_by_sidekiq(name, email_address).deliver_later
   end
 end
