@@ -4,7 +4,7 @@ development:
   authentication: :login
   domain: 'gmail.com'
   user_name: vikasdhakad989@gmail.com
-  password: Va8817145293Va8817145293
+  password: ''
   enable_starttls_auto: true
 
 production:
@@ -13,5 +13,5 @@ production:
   authentication: :login
   domain: 'gmail.com'
   user_name: vikasdhakad989@gmail.com
-  password: Va8817145293Va8817145293
+  password: ''
   enable_starttls_auto: true
